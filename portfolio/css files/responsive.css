@@ -1,0 +1,1086 @@
+/* MEDIA QUARIE FOR NAVIGATION BAR */
+@media (max-width: 700px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menuButton {
+        display: block;
+        float: left;
+    }
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+
+
+/* MEDIA QUARIE FOR  DESKTOP  */
+/* @media only screen and (min-width: 1440px) {} */
+
+/* -------------------------------------------------------------------------- */
+/* MEDIA QUARIE FOR LAPTOPS  */
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+
+    /* =================Style for Hero Section================== */
+
+    #hero-section {
+        width: 100%;
+        height: 500px;
+    }
+
+    #hero-section::before {
+        width: 100%;
+        height: 550px;
+
+    }
+
+    #hero-section-contant {
+        top: 150px;
+    }
+
+
+    /* =================Style for projects Section================== */
+
+    #project-heading h1 {
+        font-size: 30px;
+    }
+
+    #projects {
+        width: 100%;
+        height: 400px;
+    }
+
+    .project {
+        width: 200px;
+        height: 385px;
+
+    }
+
+    #project-1 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #project-2 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #project-3 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #project-4 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .project-contant {
+        width: 90%;
+        height: 170px;
+
+    }
+
+    .project-contant h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .project-contant a {
+        font-size: 20px;
+        width: 150px;
+        height: 25px;
+    }
+
+    /* =================Style for about Section================== */
+
+    #about-section {
+        width: 100%;
+        height: 900px;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+    }
+
+    #about-skills {
+        width: 90%;
+        height: 350px;
+
+    }
+
+
+    /* =================Style for Services Section================== */
+
+
+    #services-section {
+        width: 100%;
+        height: 550px;
+    }
+
+    #services {
+        width: 90%;
+        height: 450px;
+    }
+
+    .service {
+        width: 220px;
+        height: 380px;
+    }
+
+    .service .img img {
+        width: 218px;
+        aspect-ratio: 4/3;
+    }
+
+    /* =================Style for Contact Section================== */
+
+    #contact-section {
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+
+/* MEDIA QUARIE FOR TABLETS  */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #logo {
+        font-size: 15px;
+    }
+
+    #logo img {
+        display: none;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+
+    }
+
+    #hero-section {
+        width: 100%;
+        height: 500px;
+    }
+
+    #hero-section-box {
+        width: 400px;
+        height: 500px;
+        display: none;
+    }
+
+    #hero-section::before {
+        width: 100%;
+        height: 530px;
+    }
+
+
+    /* =================Style for projects Section================== */
+
+    #projects-section {
+        width: 99%;
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    #project-heading h1 {
+        font-size: 30px;
+    }
+
+    #projects {
+        width: 100%;
+        height: 830px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    #project-1 img {
+        width: 270px;
+        height: 194px;
+    }
+
+    #project-2 img {
+        width: 270px;
+        height: 194px;
+    }
+
+    #project-3 img {
+        width: 270px;
+        height: 194px;
+    }
+
+    #project-4 img {
+        width: 270px;
+        height: 194px;
+    }
+
+    .project-contant {
+        width: 50%;
+        height: 170px;
+        padding: 10px;
+        border-left: 1px solid rgb(206, 175, 244);
+        border-top: none;
+    }
+
+    .project-contant h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .project-contant a {
+        font-size: 20px;
+        width: 150px;
+        height: 25px;
+    }
+
+    /* =================Style for about Section================== */
+
+    #about-section {
+        width: 100%;
+        height: 900px;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+    }
+
+    #about-contant {
+        width: 80%;
+        height: 200px;
+    }
+
+    #about-skills {
+        width: 90%;
+        height: 450px;
+    }
+
+    /* =================Style for Services Section================== */
+
+
+    #services-section {
+        width: 100%;
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #services {
+        width: 90%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .service .img img {
+        width: 247px;
+        height: 195px;
+        aspect-ratio: 4/3;
+    }
+
+    .service .contantbox {
+        width: 50%;
+        height: 200px;
+        padding: 5PX;
+    }
+
+    /* =================Style for Contact Section================== */
+
+    #contact-section {
+        width: 100%;
+        height: 930px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #contact-section-contant {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #my-information {
+        width: 100%;
+        height: 170px;
+    }
+
+    .map {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .map iframe {
+        width: 90%;
+        height: 300px;
+    }
+
+    #contact-form {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+/* MEDIA QUARIE FOR PHONES  */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    nav {
+        width: 100%;
+        height: 40px;
+    }
+
+    #logo {
+        font-size: 15px;
+    }
+
+    #logo img {
+        display: none;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+
+    }
+
+    #hero-section {
+        width: 100%;
+        height: 300px;
+        border: none;
+    }
+
+    #hero-section-box {
+        width: 400px;
+        height: 350px;
+        display: none;
+    }
+
+    #hero-section::before {
+        width: 100%;
+        height: 350px;
+    }
+
+    #hero-section-contant {
+        width: 450px;
+        height: 280px;
+        top: 50px;
+        left: 10px;
+    }
+
+    #hero-section-contant h1 {
+        color: rgb(243, 195, 73);
+        font-size: 20px;
+    }
+
+    #hero-section-contant h1 span {
+        font-size: 24px;
+    }
+
+    #hero-section-contant h2 {
+        color: rgb(243, 195, 73);
+        font-size: 22px;
+    }
+
+    #hero-section-contant h2 span {
+        color: rgb(191, 194, 250);
+    }
+
+    #hero-section-contant p {
+        font-size: 18px;
+        color: #cdcd93;
+    }
+
+    #hr-first-button {
+        width: 80px;
+        height: 22px;
+        font-size: 16px;
+    }
+
+    #hr-second-button {
+        width: 80px;
+        height: 22px;
+        font-size: 16px;
+    }
+
+
+    /* =================Style for projects Section================== */
+
+    #projects-section {
+        width: 99%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #project-heading h1 {
+        font-size: 30px;
+    }
+
+    #projects {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project {
+        width: 90%;
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid white;
+    }
+
+
+    #project-1 img {
+        width: 140px;
+        height: 126px;
+    }
+
+    #project-2 img {
+        width: 140px;
+        height: 126px;
+    }
+
+    #project-3 img {
+        width: 140px;
+        height: 126px;
+    }
+
+    #project-4 img {
+        width: 140px;
+        height: 126px;
+    }
+
+    .project-contant {
+        width: 60%;
+        height: 120px;
+        padding: 10px;
+        border-left: 1px solid rgb(206, 175, 244);
+        border-top: none;
+    }
+
+    .project-contant h2 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .project-contant p {
+        font-size: 20px;
+    }
+
+    .project-contant span {
+        font-size: 16px;
+    }
+
+    .project-contant a {
+        font-size: 16px;
+        width: 150px;
+        height: 25px;
+    }
+
+    /* =================Style for about Section================== */
+
+    #about-section {
+        width: 100%;
+        height: 550px;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+
+    #about-contant {
+        width: 80%;
+        height: 200px;
+    }
+
+    #about {
+        width: 90%;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #about-heading h1 {
+        font-size: 40px;
+        color: #b06df7;
+    }
+
+    #about-contant {
+        width: 90%;
+        height: 130px;
+    }
+
+    #about-contant h1 {
+        font-size: 24px;
+        color: rgb(191, 194, 250);
+    }
+
+    #about-contant p {
+        font-size: 20px;
+        color: rgb(191, 194, 250);
+    }
+
+    #about-skills {
+        width: 90%;
+        height: 280px;
+        justify-content: space-between;
+    }
+
+    #about-skills .skills {
+        width: 150px;
+        height: 50px;
+    }
+
+    .skill-text {
+        font-size: 18px;
+    }
+
+
+    /* =================Style for Services Section================== */
+
+
+    #services-section {
+        width: 100%;
+        height: 780px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #services {
+        width: 90%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service {
+        width: 90%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .service .img img {
+        width: 140px;
+        height: 145px;
+        aspect-ratio: 4/3;
+    }
+
+    .service .contantbox {
+        width: 60%;
+        height: 150px;
+        padding: 5px;
+    }
+
+    .service h2 {
+        color: #b06df7;
+        font-size: 22px;
+    }
+
+    .service p {
+        color: rgb(191, 194, 250);
+        font-size: 14px;
+    }
+
+    /* =================Style for Contact Section================== */
+
+    #contact-section {
+        width: 100%;
+        height: 810px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #contact-section-contant {
+        width: 100%;
+        height: 470px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #my-information {
+        width: 100%;
+        height: 200px;
+    }
+
+    .map {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .map iframe {
+        width: 90%;
+        height: 200px;
+    }
+
+    #contact-form {
+        width: 90%;
+        height: 230px;
+    }
+
+    #contact-form {
+        font-size: 18px;
+    }
+
+    .fields {
+        width: 400px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .fields>label {
+        width: 350px;
+        height: 25px;
+    }
+
+    .fields input {
+        width: 200px;
+        height: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        height: 30px;
+
+    }
+
+    .btn button {
+        width: 100px;
+        height: 20px;
+        font-size: 16px;
+        border-radius: 3px;
+
+    }
+
+
+}
+
+
+/* MEDIA QUARIE FOR PHONES  */
+@media only screen and (max-width: 479px) {
+
+    nav {
+        width: 100%;
+        height: 40px;
+    }
+
+    #logo {
+        font-size: 15px;
+    }
+
+    #logo img {
+        display: none;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+
+    }
+
+    #hero-section {
+        width: 100%;
+        height: 220px;
+        border: none;
+    }
+
+    #hero-section-box {
+        width: 400px;
+        height: 220px;
+        display: none;
+    }
+
+    #hero-section::before {
+        width: 100%;
+        height: 250px;
+    }
+
+    #hero-section-contant {
+        width: 90%;
+        height: 200px;
+        top: 50px;
+        left: 10px;
+    }
+
+    #hero-section-contant h1 {
+        color: rgb(243, 195, 73);
+        font-size: 20px;
+    }
+
+    #hero-section-contant h1 span {
+        font-size: 20px;
+    }
+
+    #hero-section-contant h2 {
+        color: rgb(243, 195, 73);
+        font-size: 16px;
+    }
+
+    #hero-section-contant h2 span {
+        color: rgb(191, 194, 250);
+    }
+
+    #hero-section-contant p {
+        font-size: 12px;
+        color: #cdcd93;
+    }
+
+    #hr-first-button {
+        width: 100px;
+        height: 20px;
+        font-size: 13px;
+    }
+
+    #hr-second-button {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* =================Style for projects Section================== */
+
+    #projects-section {
+        width: 99%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #project-heading h1 {
+        font-size: 25px;
+    }
+
+    #projects {
+        width: 100%;
+        height: 490px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project {
+        width: 90%;
+        height: 106px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid white;
+    }
+
+
+    #project-1 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #project-2 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #project-3 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #project-4 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .project-contant {
+        width: 60%;
+        height: 100px;
+        padding: 5px;
+        border-left: 1px solid rgb(206, 175, 244);
+        border-top: none;
+    }
+
+    .project-contant h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .project-contant p {
+        font-size: 16px;
+    }
+
+    .project-contant span {
+        font-size: 14px;
+    }
+
+    .project-contant a {
+        font-size: 16px;
+        width: 150px;
+        height: 20px;
+    }
+
+    /* =================Style for about Section================== */
+
+    #about-section {
+        width: 100%;
+        height: 450px;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+
+    #about-contant {
+        width: 80%;
+        height: 200px;
+    }
+
+    #about {
+        width: 90%;
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #about-heading h1 {
+        font-size: 25px;
+        color: #b06df7;
+    }
+
+    #about-contant {
+        width: 90%;
+        height: 130px;
+    }
+
+    #about-contant h1 {
+        font-size: 24px;
+        color: rgb(191, 194, 250);
+    }
+
+    #about-contant p {
+        font-size: 16px;
+        color: rgb(191, 194, 250);
+    }
+
+    #about-skills {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #about-skills .skills {
+        width: 100px;
+        height: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-text {
+        font-size: 10px;
+    }
+
+
+    /* =================Style for Services Section================== */
+
+
+    #services-section {
+        width: 100%;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #services {
+        width: 90%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service {
+        width: 90%;
+        height: 105px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #services-heading h1 {
+        height: 24px;
+    }
+
+    .service .img img {
+        width: 100px;
+        height: 100px;
+        aspect-ratio: 4/3;
+    }
+
+    .service .contantbox {
+        width: 60%;
+        height: 100px;
+        padding: 5px;
+    }
+
+    .service h2 {
+        color: #b06df7;
+        font-size: 18px;
+    }
+
+    .service p {
+        color: rgb(191, 194, 250);
+        font-size: 10px;
+    }
+
+    /* =================Style for Contact Section================== */
+
+    #contact-section {
+        width: 100%;
+        height: 630px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #contact-heading h1 {
+        font-size: 24px;
+        color: #b06df7;
+    }
+
+    #contact-section-contant {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #my-information {
+        width: 100%;
+        height: 130px;
+    }
+
+    #my-information .info-box {
+        width: 300px;
+        height: 30px;
+    }
+
+    .map {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .map iframe {
+        width: 90%;
+        height: 170px;
+    }
+
+    #contact-form {
+        width: 90%;
+        height: 200px;
+    }
+
+    #contact-form {
+        font-size: 16px;
+    }
+
+    .fields {
+        width: 90%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .fields>label {
+        width: 280px;
+        height: 25px;
+    }
+
+    .fields input {
+        width: 200px;
+        height: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        height: 20px;
+
+    }
+
+    .btn button {
+        width: 100px;
+        height: 20px;
+        font-size: 16px;
+        border-radius: 3px;
+    }
+
+    footer #follow-icons {
+        display: none;
+    }
+}

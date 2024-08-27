@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css files/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <b class="font-bold">&lt;/&gt;</b>
+                CodeWithAman
+                <!-- -->
+            </span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Tutorial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Notes</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">My Gear</a></li>
+                <li><a href="#">Work With us</a></li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M21.5 14.0784C20.3003 14.7189 18.9301 15.0821 17.4751 15.0821C12.7491 15.0821 8.91792 11.2509 8.91792 6.52485C8.91792 5.06986 9.28105 3.69968 9.92163 2.5C5.66765 3.49698 2.5 7.31513 2.5 11.8731C2.5 17.1899 6.8101 21.5 12.1269 21.5C16.6849 21.5 20.503 18.3324 21.5 14.0784Z"
+                        stroke="#1f1fd9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <button id="login">login</button>
+                <button id="signup">Signup</button>
+            </ul>
+        </nav>
+        <div class="course-row">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 17H12.009" stroke="#1f1fd9" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path
+                    d="M20 8.5V13.5C20 17.2712 20 19.1569 18.8284 20.3284C17.6569 21.5 15.7712 21.5 12 21.5C8.22876 21.5 6.34315 21.5 5.17157 20.3284C4 19.1569 4 17.2712 4 13.5V8.5"
+                    stroke="#1f1fd9" stroke-width="1.5" />
+                <path
+                    d="M22 10.5L17.6569 6.33548C14.9902 3.77849 13.6569 2.5 12 2.5C10.3431 2.5 9.00981 3.77849 6.34315 6.33548L2 10.5"
+                    stroke="#1f1fd9" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+            <ul class="course-items">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JS</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">JAVA</a></li>
+                <li><a href="#">PYTHON</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">REACT JS</a></li>
+            </ul>
+            <div class="search-container">
+                <!-- Search input -->
+                <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+
+                <!-- Search icon -->
+                <div class="search-icon" onclick="performSearch()">
+                    <!-- <img src="search-icon.png" alt="Search"> -->
+                    <svg class="search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none">
+                        <path d="M17.5 17.5L22 22" stroke="#1f1fd9" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
+                            stroke="#1f1fd9" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section id="hero">
+        <div class="top-first">
+            <div class="heading">
+                <h2 id="heading-half">Welcome to </h2>
+                <h2>CodeWithAman</h2>
+            </div>
+            <p class="peraoflearn">Learn...</p>
+            <p id="top-pera">Confused on which course to take? I have got you covered. Browse courses and find out the
+                best course for
+                you. Its free! Code With Harry is my attempt to teach basics and those coding techniques to people in
+                short time which took me ages to learn This website's oner is Mr. Aman Diwakar,</p>
+            <div id="buttons">
+                <button class="btn btn-1">Free Cources</button>
+                <button class="btn btn-2">Explore Blog</button>
+            </div>
+        </div>
+        <div class="top-second"></div>
+    </section>
+
+    <!-- Courses -->
+    <div id="courses"
+        style=" width: 100%; height: 500px; display: flex; align-items: center; justify-content: center; ">
+        <span id="courses-heading" style=" color: rgb(67, 28, 107); font-size: 40px;"> Courses</span>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

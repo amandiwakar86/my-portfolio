@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1000px) {
+    nav li {
+        display: none;
+    }
+
+    #hero .top-second {
+        display: none;
+    }
+
+    #hero .top-second img {
+        display: none;
+    }
+
+    #hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #hero .top-first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        left: 0px;
+    }
+
+    #hero .top-first .heading {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .type {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .peraoflearn {
+        font-size: 20px;
+    }
+
+    #videos-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 1700px;
+    }
+
+
+}
+
+@media only screen and (max-width: 760px) {
+    nav ul {
+        display: none;
+    }
+
+    .course-items li {
+        display: none;
+    }
+
+    #videos-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 1700px;
+    }
+}

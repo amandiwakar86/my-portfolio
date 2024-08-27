@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithAman.com</title>
+    <link rel="stylesheet" href="../css files/style.css">
+    <link rel="stylesheet" href="../css files/phone.css">
+    <link rel="website icon" href="./images/logo-blue.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <b class="font-bold">&lt;/&gt;</b>
+                CodeWithHarry
+                <!-- -->
+            </span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#">Tutorial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Notes</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">My Gear</a></li>
+                <li><a href="#">Work With us</a></li>
+                <svg onclick="toggle()" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none">
+                    <path
+                        d="M21.5 14.0784C20.3003 14.7189 18.9301 15.0821 17.4751 15.0821C12.7491 15.0821 8.91792 11.2509 8.91792 6.52485C8.91792 5.06986 9.28105 3.69968 9.92163 2.5C5.66765 3.49698 2.5 7.31513 2.5 11.8731C2.5 17.1899 6.8101 21.5 12.1269 21.5C16.6849 21.5 20.503 18.3324 21.5 14.0784Z"
+                        stroke="#1f1fd9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <button id="login">login</button>
+                <button id="signup">Signup</button>
+            </ul>
+        </nav>
+        <div class="course-row">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 17H12.009" stroke="#1f1fd9" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path
+                    d="M20 8.5V13.5C20 17.2712 20 19.1569 18.8284 20.3284C17.6569 21.5 15.7712 21.5 12 21.5C8.22876 21.5 6.34315 21.5 5.17157 20.3284C4 19.1569 4 17.2712 4 13.5V8.5"
+                    stroke="#1f1fd9" stroke-width="1.5" />
+                <path
+                    d="M22 10.5L17.6569 6.33548C14.9902 3.77849 13.6569 2.5 12 2.5C10.3431 2.5 9.00981 3.77849 6.34315 6.33548L2 10.5"
+                    stroke="#1f1fd9" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+            <ul class="course-items">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JS</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">JAVA</a></li>
+                <li><a href="#">PYTHON</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">REACT JS</a></li>
+            </ul>
+            <div class="search-container">
+                <!-- Search input -->
+                <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+
+                <!-- Search icon -->
+                <div class="search-icon" onclick="performSearch()">
+                    <!-- <img src="search-icon.png" alt="Search"> -->
+                    <svg class="search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none">
+                        <path d="M17.5 17.5L22 22" stroke="#1f1fd9" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
+                            stroke="#1f1fd9" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section id="hero">
+        <div class="top-first">
+            <div class="heading">
+                <h2 id="heading-half">Welcome to </h2>
+                <h2>CodeWithHarry</h2>
+            </div>
+            <div class="type">
+                <p class="peraoflearn">Learn<span class="txt-rotate" data-period="2000"
+                        data-rotate='[ "Python", "C++", "Java", "DSA", "Machine Learning", "Data Science", "Web Devlopment" ]'></span>
+                </p>
+            </div>
+            <p id="top-pera">Confused on which course to take? I have got you covered. Browse courses and find out the
+                best course for
+                you. Its free! Code With Harry is my attempt to teach basics and those coding techniques to people in
+                short time which took me ages to learn This website's oner is Mr. Aman Diwakar,</p>
+            <div id="buttons">
+                <button class="btn btn-1">Free Cources</button>
+                <button class="btn btn-2">Explore Blog</button>
+            </div>
+        </div>
+        <div class="top-second">
+            <img src="../images/bg.jpg"
+                alt="">
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+
+    <div class="course-heading">
+        <h1>Recommended Courses</h1>
+    </div>
+
+    <!-- Video Section -->
+    <section id="videos-section">
+        <div class="first-box">
+            <img src="../images/paython.jpg" alt="">
+            <div class="contant">
+                <h6>FREE COURSE</h6>
+                <h3>Python Tutorials - 100 Days of Code</h3>
+                <P>Python is one of the most demanded programming languages in the job market. Surprisingly, it is
+                    equally easy to learn and master Python. Let's commit our 100 days of code to python!</P>
+            </div>
+            <button class="watch-btn">Start Watching</button>
+        </div>
+        <!-- Second box -->
+        <div class="second-box">
+            <img src="../images/JS-Thumb.jpg" alt="">
+            <div class="contant">
+                <h6>FREE COURSE</h6>
+                <h3>Ultimate JavaScript Course</h3>
+                <P>This latest JavaScript course comes with premium curriculum that covers everything from basics to
+                    advance. On top of that, you will get my handwritten notes of JS for completely free. What are you
+                    waiting for? Just Enroll Buddy</P>
+            </div>
+            <button class="watch-btn">Start Watching</button>
+        </div>
+        <!-- Third box -->
+        <div class="third-box">
+            <img src="../images/react.png" alt="">
+            <div class="contant">
+                <h6>FREE COURSE</h6>
+                <h3>React JS Tutorials For Beginners</h3>
+                <P>React is a free and open-source front-end JavaScript library. This series will cover React from
+                    starting to the end. We will learn react from the ground up!</P>
+            </div>
+            <button class="watch-btn">Start Watching</button>
+        </div>
+    </section>
+
+    <div class="mid-heading">
+        <h1>Testimonials</h1>
+    </div>
+    <div class="mid-box">
+        <div class="mid-first">
+            <div class="comma">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+                    viewBox="0 0 975.036 975.036">
+                    <path
+                        d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                    </path>
+                </svg>
+            </div>
+            <p id="mid-pera">
+                I don't have words to thank this man, I'm really grateful to have this channel and website in my daily
+                routine. If you're a mere beginner, then you can trust this guy and can put your time into his content.
+                I can assure you that it'll be worth it.
+            </p>
+            <h4>Mohit Kumar</h4>
+            <h5>Web Devloper</h5>
+        </div>
+        <div class="mid-first">
+            <div class="comma">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+                    viewBox="0 0 975.036 975.036">
+                    <path
+                        d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                    </path>
+                </svg>
+
+            </div>
+
+            <p id="mid-pera">
+                For everyone who wants to level up their #Coding and #Dev skills - seriously, this channel is for you!
+                Both basic and advanced stacks are covered on this channel, and one can learn according to his skill
+                levels. And the icing on the cake is, everything is available for free.
+            </p>
+            <h4>Rakesh Shetty</h4>
+            <h5>Web Devloper</h5>
+        </div>
+    </div>
+
+    <!-- Footrt -->
+    <footer>
+        <div class="about">
+            <div class="image"><img src="logo-blue.png" alt="">
+                <h2>CodeWithHarry</h2>
+            </div>
+            <h6 id="copy-right">Copyright © 2024 CodeWithHarry.com</h6>
+        </div>
+        <div class="follow">
+            <a href="https://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M6.18182 10.3333C5.20406 10.3333 5 10.5252 5 11.4444V13.1111C5 14.0304 5.20406 14.2222 6.18182 14.2222H8.54545V20.8889C8.54545 21.8081 8.74951 22 9.72727 22H12.0909C13.0687 22 13.2727 21.8081 13.2727 20.8889V14.2222H15.9267C16.6683 14.2222 16.8594 14.0867 17.0631 13.4164L17.5696 11.7497C17.9185 10.6014 17.7035 10.3333 16.4332 10.3333H13.2727V7.55556C13.2727 6.94191 13.8018 6.44444 14.4545 6.44444H17.8182C18.7959 6.44444 19 6.25259 19 5.33333V3.11111C19 2.19185 18.7959 2 17.8182 2H14.4545C11.191 2 8.54545 4.48731 8.54545 7.55556V10.3333H6.18182Z"
+                        stroke="#9b9b9b" stroke-width="1.5" stroke-linejoin="round" />
+                </svg></a>
+            <a href="https://twitter.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M2 18.5C3.76504 19.521 5.81428 20 8 20C14.4808 20 19.7617 14.8625 19.9922 8.43797L22 4.5L18.6458 5C17.9407 4.37764 17.0144 4 16 4C13.4276 4 11.5007 6.51734 12.1209 8.98003C8.56784 9.20927 5.34867 7.0213 3.48693 4.10523C2.25147 8.30185 3.39629 13.3561 6.5 16.4705C6.5 17.647 3.5 18.3488 2 18.5Z"
+                        stroke="#9b9b9b" stroke-width="1.5" stroke-linejoin="round" />
+                </svg></a>
+            <a href="https://instagram.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                        stroke="#9b9b9b" stroke-width="1.5" stroke-linejoin="round" />
+                    <path
+                        d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+                        stroke="#9b9b9b" stroke-width="1.5" />
+                    <path d="M17.5078 6.5L17.4988 6.5" stroke="#9b9b9b" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg></a>
+            <a href="https://github.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z"
+                        stroke="#9b9b9b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></a>
+        </div>
+    </footer>
+
+    <script src="../js files/script.js"></script>
+</body>
+
+</html>

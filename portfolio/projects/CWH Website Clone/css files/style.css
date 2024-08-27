@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    color-scheme: rgb(3, 3, 40);
+}
+
+/* Header part */
+header {
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(98, 101, 188);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    border-bottom: 0.1mm solid rgb(233, 228, 228);
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+span {
+    margin: 25px;
+    font-size: 20px;
+    color: #7e22ce;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid rgb(98, 101, 188);
+    position: relative;
+    top: -1px;
+
+}
+
+#login {
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #7e22ce;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login:hover {
+    background-color: rgb(95, 47, 140);
+}
+
+#signup {
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #7e22ce;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signup:hover {
+    background-color: rgb(95, 47, 140);
+}
+
+/* Style for Courses links */
+
+.course-row {
+    width: 100%;
+    height: 25px;
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-row svg {
+    margin: 50px;
+    cursor: pointer;
+}
+
+.course-items {
+    display: flex;
+    gap: 10px;
+}
+
+.course-items {
+    gap: 25px;
+}
+
+.course-items li {
+    list-style: none;
+}
+
+.course-items li a {
+    text-decoration: none;
+    color: #7e22ce;
+    font-weight: 700;
+}
+
+.course-items li a:hover {
+    border-bottom: 2px solid rgb(98, 101, 188);
+    position: relative;
+    top: -1px;
+}
+
+/* Style for the search bar container */
+.search-container {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the search input */
+.search-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(246, 212, 212);
+    margin-right: 4px;
+    background-color: white;
+    display: none;
+
+}
+
+/* Style for the search icon */
+.search-icon {
+    cursor: pointer;
+}
+
+/*Style for Hero Section */
+
+#hero {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero .top-first {
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+    left: 30px;
+}
+
+#hero .top-first .heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+#hero .top-first #heading-half {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: rgb(87, 82, 82);
+    margin: 0;
+
+}
+
+#hero .top-first h2 {
+    font-size: 37px;
+    color: #7e22ce;
+    font-weight: bold;
+}
+
+.peraoflearn {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0px 0px;
+}
+
+.txt-rotate {
+    margin: 0px 0px;
+}
+
+.type {
+    width: 400px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    left: 0%;
+}
+
+#top-pera {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: rgb(102, 83, 119);
+    margin: 0px 0px;
+}
+
+#buttons {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+    cursor: pointer;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#hero .top-first .btn {
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hero .top-first .btn-1 {
+    background-color: rgb(11, 11, 31);
+    color: white;
+    cursor: pointer;
+}
+
+#hero .top-first .btn-1:hover {
+    background-color: rgb(24, 24, 53);
+}
+
+#hero .top-first .btn-2:hover {
+    background-color: rgb(214, 214, 223);
+}
+
+#hero .top-second {
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    right: 0px;
+}
+
+#hero .top-second img {
+    width: 90%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.course-heading {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.course-heading h1 {
+    font-size: 35px;
+}
+
+/* Style for Videos Section */
+
+#videos-section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 70px;
+}
+
+/* Style for first-box */
+
+#videos-section .first-box {
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px rgb(159, 159, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contant {
+    width: 380px;
+    height: 250px;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.contant h3,
+h6,
+p {
+    margin: 20px;
+}
+
+
+#videos-section .first-box img {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.watch-btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgb(117, 0, 128);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.watch-btn:hover {
+    background-color: rgb(147, 14, 159);
+}
+
+/* Style for second-box */
+
+#videos-section .second-box {
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px rgb(159, 159, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#videos-section .second-box img {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Style for third-box */
+
+#videos-section .third-box {
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px rgb(159, 159, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#videos-section .third-box img {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Style for .min section */
+.mid-heading {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.mid-box {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+    border-radius: 20px;
+}
+
+.mid-first {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(174, 165, 165, 0.281);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.comma {
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.comma svg {
+    width: 15px;
+}
+
+#mid-pera {
+    color: rgb(102, 83, 119);
+}
+
+.mid-first h5 {
+    color: rgb(102, 83, 119);
+}
+
+.mid-first h4,
+h5 {
+    padding: 2px 20px;
+}
+
+/* Style for footer */
+footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 130px;
+}
+
+.about {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.about #copy-right {
+    font-size: 12px;
+    color: rgb(148, 138, 138);
+}
+
+.image {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid gray;
+
+}
+
+.image img {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(92, 92, 94, 0.539);
+
+}
+
+.follow {
+    width: 300px;
+    height: 30px;
+}

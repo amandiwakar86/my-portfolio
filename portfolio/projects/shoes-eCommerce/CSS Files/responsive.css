@@ -1,0 +1,259 @@
+/* MEDIA QUARIE FOR  DESKTOP  */
+/* @media only screen and (min-width: 1440px) {} */
+
+/* -------------------------------------------------------------------------- */
+
+/* MEDIA QUARIE FOR LAPTOPS  */
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    /* ===================================--> Styling of hero-section <--====================================== */
+    #hero-section {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    #hero-section-contant {
+        width: 450px;
+        height: 250px;
+    }
+
+    #hero-section-image {
+        width: 450px;
+        height: 300px;
+    }
+
+    #hero-section-image #hero-section-image-shoes {
+        width: 200px;
+        top: 100px;
+        left: 60px;
+    }
+
+    .second-circle {
+        width: 130px;
+        height: 130px;
+        top: 100px;
+        left: 180px;
+    }
+
+    /* ===================================--> Styling of cards-section <--====================================== */
+
+    #card-section {
+        width: 100%;
+        height: 400px;
+    }
+
+    /* ===================================--> Styling of section-of-showcase <--====================================== */
+
+    #section-of-showcase {
+        width: 100%;
+        height: 500px;
+    }
+
+    #section-of-showcase .showcase-image {
+        width: 400px;
+        height: 500px;
+    }
+
+    /* ===================================--> Styling of categories-section <--====================================== */
+
+    #categories-section {
+        width: 100%;
+        height: 450px;
+    }
+
+    #categories-section .categories-card {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+/* MEDIA QUARIE FOR TABLETS  */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* ===================================--> Styling of hero-section <--====================================== */
+    #hero-section {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+
+    #hero-section-contant {
+        width: 100%;
+        height: 200px;
+    }
+
+    #hero-section-contant .btn #Explore-btn {
+        width: 20vw;
+        height: 30px;
+    }
+
+    #hero-section-image {
+        width: 100%;
+        height: 400px;
+    }
+
+    #hero-section-image #hero-section-image-shoes {
+        width: 300px;
+        top: 100px;
+        left: 120px;
+    }
+
+    .second-circle {
+        width: 130px;
+        height: 130px;
+        top: 150px;
+        left: 230px;
+    }
+
+    /* ===================================--> Styling of cards-section <--====================================== */
+
+    #card-section {
+        width: 100%;
+        height: 700px;
+    }
+
+    .card {
+        width: 300px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid white;
+        background-color: #ffffff4b;
+        border-radius: 4px;
+    }
+
+    /* ===================================--> Styling of section-of-showcase <--====================================== */
+
+    #section-of-showcase {
+        width: 100%;
+        height: 500px;
+    }
+
+    #section-of-showcase .showcase-image {
+        display: none;
+    }
+
+    /* ===================================--> Styling of categories-section <--====================================== */
+
+    #categories-section {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #categories-section .categories-card {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* ===================================--> Styling of CONTACT SECTION  <--====================================== */
+
+    section {
+        width: 100%;
+        padding: 1em;
+        max-width: 800px;
+        margin: 1em auto;
+    }
+}
+
+/* MEDIA QUARIE FOR PHONES  */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /* ===================================--> Styling of hero-section <--====================================== */
+    #hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+
+    #hero-section-contant {
+        height: 200px;
+    }
+
+    #hero-section-contant .btn #Explore-btn {
+        width: 20vw;
+        height: 30px;
+    }
+
+    #hero-section-image {
+        width: 100%;
+        height: 400px;
+    }
+
+    #hero-section-image #hero-section-image-shoes {
+        width: 300px;
+        top: 100px;
+        left: 120px;
+    }
+
+    .second-circle {
+        width: 130px;
+        height: 130px;
+        top: 150px;
+        left: 230px;
+    }
+
+    /* ===================================--> Styling of cards-section <--====================================== */
+
+    #card-section {
+        width: 100%;
+        height: 700px;
+    }
+
+    .card {
+        width: 300px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid white;
+        background-color: #ffffff4b;
+        border-radius: 4px;
+    }
+
+    /* ===================================--> Styling of section-of-showcase <--====================================== */
+
+    #section-of-showcase {
+        width: 100%;
+        height: 500px;
+    }
+
+    #section-of-showcase .showcase-image {
+        display: none;
+    }
+
+    /* ===================================--> Styling of categories-section <--====================================== */
+
+    #categories-section {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #categories-section .categories-card {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* ===================================--> Styling of CONTACT SECTION  <--====================================== */
+
+    section {
+        width: 100%;
+        padding: 1em;
+        max-width: 800px;
+        margin: 1em auto;
+    }
+}
