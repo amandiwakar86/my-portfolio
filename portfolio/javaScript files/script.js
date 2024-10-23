@@ -7,6 +7,18 @@ function hidesidebar() {
   sidebar.style.display = 'none';
 }
 
+
+
+// // write javaScript for create custome cursore
+
+const customeCursore = document.querySelector(".cursore");
+document.addEventListener('mousemove', (event) => {
+  const x = event.pageX;
+  const y = event.pageY;
+  customeCursore.style.left = `${x}px`;
+  customeCursore.style.top = `${y}px`;
+});
+
 // for typink effect
 
 var TxtRotate = function (el, toRotate, period) {
