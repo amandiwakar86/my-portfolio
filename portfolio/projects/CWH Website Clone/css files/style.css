@@ -447,6 +447,7 @@ p {
 
 #mid-pera {
     color: rgb(102, 83, 119);
+    overflow: hidden;
 }
 
 .mid-first h5 {
@@ -463,6 +464,7 @@ footer {
     width: 100%;
     height: 70px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     position: relative;
